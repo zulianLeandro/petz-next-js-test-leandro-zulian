@@ -1,0 +1,13 @@
+.container {
+  display: flex;
+  flex-direction: column; /* As divs ficarão uma abaixo da outra */
+  align-items: center; /* Alinhe as divs horizontalmente no centro da página */
+  width: 100%; /* Faça a container ocupar a largura total da página */
+  height: 100%; /* Faça a container ocupar a altura total da janela */
+  justify-content: center; /* Alinhe as divs verticalmente no centro da página */
+}
+
+.box {
+  width: 100%; /* Ajuste a largura das divs conforme necessário */   
+  text-align: center; /* Centralize o conteúdo horizontalmente */
+} 

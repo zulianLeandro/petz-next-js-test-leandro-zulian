@@ -1,0 +1,50 @@
+
+.boxes{
+  
+  font-family: 'Inter', sans-serif;
+  font-size: 12px;   
+  a{
+    text-decoration: none;
+  }
+}
+ 
+.leftbox {   
+  float:left;  
+  width:70%;
+  height:90px;
+  text-decoration: none;
+  display: flex;
+  align-items: center; 
+  justify-content: left;  
+   
+}
+.middlebox{
+  float:left;  
+  width:10%;
+  height:90px;
+  display: flex;
+  align-items: center; 
+  justify-content: center; 
+  a{   
+    font-weight: 600;
+    color:#404040;
+  }
+  
+}
+.rightbox{
+  float:right;  
+  width:20%;
+  height:90px;
+  text-decoration: none;
+  display: flex;
+  align-items: center; 
+  justify-content: left; 
+} 
+
+.btnAgendarConsulta{
+  background-color: red;
+  font-weight: 600;
+  color: white;
+  padding: 10px 20px 10px 20px;
+  border-radius: 20px;
+}

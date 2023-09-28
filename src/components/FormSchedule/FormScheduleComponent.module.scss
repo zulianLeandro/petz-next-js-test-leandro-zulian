@@ -1,0 +1,164 @@
+ .center{  
+    font-family: 'Inter', sans-serif;
+    font-size: 12px;    
+    width: 50%; 
+    display: flex;
+    align-items: center; 
+    justify-content: center;  
+}
+
+.title{
+  font-family: 'Inter', sans-serif;
+  margin-left: -50px;
+}
+
+.tabela {  
+    font-family: 'Inter', sans-serif; 
+  }
+  
+  .linha {    
+    display: flex; 
+    padding: 8px;
+    width: 90%;    
+    padding-right: -10px;  
+  }
+  
+  .celula {
+    flex: 1;
+    padding: 8px;   
+  }
+  
+  /* Estilo para a primeira linha (cabeçalho) */
+  .linha:first-child {       
+    font-weight: bold; 
+    font-family: 'Inter', sans-serif;
+    font-size: 12px; 
+    width: 100%;
+  }
+
+  .formGroup {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-bottom: 5px;     
+  }
+  
+  .label {
+    font-weight: bold;
+    margin-bottom: 4px;
+  }
+  
+  .formDrop {
+    padding: 8px !important;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    width: 100%; 
+    margin: 0 auto;    
+    color: gray; 
+  }
+  .formInput {
+    padding: 8px !important;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;     
+    width: 93%;
+    color: gray; 
+  }
+  .spanCad{
+    display: block;
+    width: 100%;    
+    text-align: left;
+    font-weight: bold;
+    padding: 10px 0 5px 0px;
+  }
+  .spanAtend{
+    text-align: left;
+    color: gray;
+    display: block;
+    width: 100%;
+    font-size: 12px;
+    margin-bottom: -10px;
+  }
+  .btnAdd{
+    border-radius: 30px;
+    background-color: white; 
+    font-weight: bold;
+    padding: 10px 20px 10px 20px ;
+  }
+  .results{
+    overflow: hidden;
+    color:gray;
+    border-top: 1px solid #dcdcdc;
+    width: 100%;
+    padding-top: 20px;
+  }
+  .spanDesc{ 
+    width: 80%; 
+  }
+  .spanResult{  
+    width: 20%;    
+    text-align: right;    
+  }
+  .alingDiv{ 
+    text-align: left;
+    display: flex;
+    margin-bottom: 5px;
+  }
+  .lastDiv{
+    text-align: left;
+    font-size: 8px;
+  }
+  .btnConcAgen{
+    padding: 10px 20px 10px 20px;
+    font-weight: bold;
+    color: white;
+    background-color: red;
+    border: none;
+    border-radius: 30px;
+  }
+  .txtVlr{  
+    margin-bottom: 20px;
+    margin-right: 100px;
+  
+  }
+
+  .pai {
+    width: 100%;  
+    overflow: hidden;  
+  }
+  
+  .esquerda {
+    float: left; 
+    width: 65%;  
+    text-align: left; 
+    
+  }
+  
+  .direita {
+    float: right;  
+    width: 35%;  
+    padding-top: 15px;    
+  }
+
+ .returnMessage{
+    width: 20%;
+    margin: 200px  ;
+    border: 1px solid #e35595;
+    border-radius: 5px;
+    padding: 30px;
+    background-color:  #fefafa
+ }
+ .messageTitulo{
+  font-size: 15px;
+  font-weight: bold;
+  margin-bottom: 10px;
+ }
+ .messageIcon{
+    margin-bottom: 10px;
+ }
+ .messageText{
+    margin-bottom: 10px;
+    color: gray;
+    font-size: 12px;
+ }
